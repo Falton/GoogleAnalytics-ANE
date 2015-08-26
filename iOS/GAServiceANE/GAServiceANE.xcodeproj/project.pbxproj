@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32F8A39E18DD0206006FE25B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F8A39D18DD0206006FE25B /* Foundation.framework */; };
+		32F8A3A318DD0206006FE25B /* GAServiceANE.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32F8A3A218DD0206006FE25B /* GAServiceANE.h */; };
+		32F8A3A518DD0206006FE25B /* GAServiceANE.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F8A3A418DD0206006FE25B /* GAServiceANE.m */; };
+		32F8A3AC18DD0206006FE25B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F8A3AB18DD0206006FE25B /* XCTest.framework */; };
+		32F8A3AD18DD0206006FE25B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F8A39D18DD0206006FE25B /* Foundation.framework */; };
+		32F8A3AF18DD0206006FE25B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F8A3AE18DD0206006FE25B /* UIKit.framework */; };
+		32F8A3B218DD0206006FE25B /* libGAServiceANE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F8A39A18DD0206006FE25B /* libGAServiceANE.a */; };
+		32F8A3B818DD0206006FE25B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32F8A3B618DD0206006FE25B /* InfoPlist.strings */; };
+		32F8A3BA18DD0206006FE25B /* GAServiceANETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F8A3B918DD0206006FE25B /* GAServiceANETests.m */; };
+		32F8A3D118DD176D006FE25B /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F8A3D018DD176D006FE25B /* libGoogleAnalyticsServices.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32F8A3B018DD0206006FE25B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32F8A39218DD0206006FE25B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F8A39918DD0206006FE25B;
+			remoteInfo = GAServiceANE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32F8A39818DD0206006FE25B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				32F8A3A318DD0206006FE25B /* GAServiceANE.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32F8A39A18DD0206006FE25B /* libGAServiceANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGAServiceANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F8A39D18DD0206006FE25B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32F8A3A118DD0206006FE25B /* GAServiceANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GAServiceANE-Prefix.pch"; sourceTree = "<group>"; };
+		32F8A3A218DD0206006FE25B /* GAServiceANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAServiceANE.h; sourceTree = "<group>"; };
+		32F8A3A418DD0206006FE25B /* GAServiceANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAServiceANE.m; sourceTree = "<group>"; };
+		32F8A3AA18DD0206006FE25B /* GAServiceANETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GAServiceANETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F8A3AB18DD0206006FE25B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		32F8A3AE18DD0206006FE25B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		32F8A3B518DD0206006FE25B /* GAServiceANETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GAServiceANETests-Info.plist"; sourceTree = "<group>"; };
+		32F8A3B718DD0206006FE25B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32F8A3B918DD0206006FE25B /* GAServiceANETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAServiceANETests.m; sourceTree = "<group>"; };
+		32F8A3C318DD0940006FE25B /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = ../../../../../../Downloads/AIRSDK_Compiler/include/FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		32F8A3CA18DD16B3006FE25B /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		32F8A3CB18DD16B3006FE25B /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		32F8A3CC18DD16B3006FE25B /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		32F8A3CD18DD16B3006FE25B /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		32F8A3CE18DD16B3006FE25B /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		32F8A3CF18DD16B3006FE25B /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		32F8A3D018DD176D006FE25B /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32F8A39718DD0206006FE25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F8A39E18DD0206006FE25B /* Foundation.framework in Frameworks */,
+				32F8A3D118DD176D006FE25B /* libGoogleAnalyticsServices.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F8A3A718DD0206006FE25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F8A3B218DD0206006FE25B /* libGAServiceANE.a in Frameworks */,
+				32F8A3AC18DD0206006FE25B /* XCTest.framework in Frameworks */,
+				32F8A3AF18DD0206006FE25B /* UIKit.framework in Frameworks */,
+				32F8A3AD18DD0206006FE25B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32F8A39118DD0206006FE25B = {
+			isa = PBXGroup;
+			children = (
+				32F8A39F18DD0206006FE25B /* GAServiceANE */,
+				32F8A3B318DD0206006FE25B /* GAServiceANETests */,
+				32F8A39C18DD0206006FE25B /* Frameworks */,
+				32F8A39B18DD0206006FE25B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32F8A39B18DD0206006FE25B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32F8A39A18DD0206006FE25B /* libGAServiceANE.a */,
+				32F8A3AA18DD0206006FE25B /* GAServiceANETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32F8A39C18DD0206006FE25B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32F8A39D18DD0206006FE25B /* Foundation.framework */,
+				32F8A3AB18DD0206006FE25B /* XCTest.framework */,
+				32F8A3AE18DD0206006FE25B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32F8A39F18DD0206006FE25B /* GAServiceANE */ = {
+			isa = PBXGroup;
+			children = (
+				32F8A3C918DD16B3006FE25B /* Library */,
+				32F8A3A218DD0206006FE25B /* GAServiceANE.h */,
+				32F8A3C318DD0940006FE25B /* FlashRuntimeExtensions.h */,
+				32F8A3A418DD0206006FE25B /* GAServiceANE.m */,
+				32F8A3A018DD0206006FE25B /* Supporting Files */,
+			);
+			path = GAServiceANE;
+			sourceTree = "<group>";
+		};
+		32F8A3A018DD0206006FE25B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32F8A3A118DD0206006FE25B /* GAServiceANE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32F8A3B318DD0206006FE25B /* GAServiceANETests */ = {
+			isa = PBXGroup;
+			children = (
+				32F8A3B918DD0206006FE25B /* GAServiceANETests.m */,
+				32F8A3B418DD0206006FE25B /* Supporting Files */,
+			);
+			path = GAServiceANETests;
+			sourceTree = "<group>";
+		};
+		32F8A3B418DD0206006FE25B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32F8A3B518DD0206006FE25B /* GAServiceANETests-Info.plist */,
+				32F8A3B618DD0206006FE25B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32F8A3C918DD16B3006FE25B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				32F8A3CA18DD16B3006FE25B /* GAI.h */,
+				32F8A3D018DD176D006FE25B /* libGoogleAnalyticsServices.a */,
+				32F8A3CB18DD16B3006FE25B /* GAIDictionaryBuilder.h */,
+				32F8A3CC18DD16B3006FE25B /* GAIFields.h */,
+				32F8A3CD18DD16B3006FE25B /* GAILogger.h */,
+				32F8A3CE18DD16B3006FE25B /* GAITrackedViewController.h */,
+				32F8A3CF18DD16B3006FE25B /* GAITracker.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32F8A39918DD0206006FE25B /* GAServiceANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F8A3BD18DD0206006FE25B /* Build configuration list for PBXNativeTarget "GAServiceANE" */;
+			buildPhases = (
+				32F8A39618DD0206006FE25B /* Sources */,
+				32F8A39718DD0206006FE25B /* Frameworks */,
+				32F8A39818DD0206006FE25B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GAServiceANE;
+			productName = GAServiceANE;
+			productReference = 32F8A39A18DD0206006FE25B /* libGAServiceANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		32F8A3A918DD0206006FE25B /* GAServiceANETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F8A3C018DD0206006FE25B /* Build configuration list for PBXNativeTarget "GAServiceANETests" */;
+			buildPhases = (
+				32F8A3A618DD0206006FE25B /* Sources */,
+				32F8A3A718DD0206006FE25B /* Frameworks */,
+				32F8A3A818DD0206006FE25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32F8A3B118DD0206006FE25B /* PBXTargetDependency */,
+			);
+			name = GAServiceANETests;
+			productName = GAServiceANETests;
+			productReference = 32F8A3AA18DD0206006FE25B /* GAServiceANETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32F8A39218DD0206006FE25B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dima Svetov";
+			};
+			buildConfigurationList = 32F8A39518DD0206006FE25B /* Build configuration list for PBXProject "GAServiceANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32F8A39118DD0206006FE25B;
+			productRefGroup = 32F8A39B18DD0206006FE25B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32F8A39918DD0206006FE25B /* GAServiceANE */,
+				32F8A3A918DD0206006FE25B /* GAServiceANETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32F8A3A818DD0206006FE25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F8A3B818DD0206006FE25B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32F8A39618DD0206006FE25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F8A3A518DD0206006FE25B /* GAServiceANE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F8A3A618DD0206006FE25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F8A3BA18DD0206006FE25B /* GAServiceANETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32F8A3B118DD0206006FE25B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F8A39918DD0206006FE25B /* GAServiceANE */;
+			targetProxy = 32F8A3B018DD0206006FE25B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32F8A3B618DD0206006FE25B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F8A3B718DD0206006FE25B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32F8A3BB18DD0206006FE25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32F8A3BC18DD0206006FE25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32F8A3BE18DD0206006FE25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GAServiceANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GAServiceANE/GAServiceANE-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GAServiceANE/Library",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		32F8A3BF18DD0206006FE25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GAServiceANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GAServiceANE/GAServiceANE-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GAServiceANE/Library",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		32F8A3C118DD0206006FE25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GAServiceANE/GAServiceANE-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GAServiceANETests/GAServiceANETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		32F8A3C218DD0206006FE25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GAServiceANE/GAServiceANE-Prefix.pch";
+				INFOPLIST_FILE = "GAServiceANETests/GAServiceANETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32F8A39518DD0206006FE25B /* Build configuration list for PBXProject "GAServiceANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F8A3BB18DD0206006FE25B /* Debug */,
+				32F8A3BC18DD0206006FE25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F8A3BD18DD0206006FE25B /* Build configuration list for PBXNativeTarget "GAServiceANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F8A3BE18DD0206006FE25B /* Debug */,
+				32F8A3BF18DD0206006FE25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32F8A3C018DD0206006FE25B /* Build configuration list for PBXNativeTarget "GAServiceANETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F8A3C118DD0206006FE25B /* Debug */,
+				32F8A3C218DD0206006FE25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32F8A39218DD0206006FE25B /* Project object */;
+}

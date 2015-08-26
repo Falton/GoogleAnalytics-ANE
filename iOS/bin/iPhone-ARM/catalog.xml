@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/svetov/services/ga/GAInterface" mod="1394558999789" signatureChecksum="4073219565" >
+        <def id="com.svetov.services.ga:GAInterface" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="_98772a96cd6e50ef0aae5864dc9cbb25972311a27553c934d5525875612d4076_flash_display_Sprite" mod="1394561660683" signatureChecksum="1228896377" >
+        <def id="_98772a96cd6e50ef0aae5864dc9cbb25972311a27553c934d5525875612d4076_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="d6ca1dbc5d2a4f6e18e1bbe35eef9149ccffb570514a237dbbe37ed185c758b1"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>
