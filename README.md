@@ -1,5 +1,7 @@
 # GoogleAnalytics-ANE
 Google Analytics for AIR Native Extension 
+Works fro both Android and iOS builds
+same changes are required for both builds
 
 Bridge to track mobile users via google analytics from flash projects.
 
@@ -27,3 +29,4 @@ GAInterface.getInstance().trackView("VIEW NAME");
 GAInterface.getInstance().trackEvent("Category", "Action", "Lable", value)
 ```
 
+You might have to make xxxx-app.xml read only after changes since Flash likes to rebuild that file and might override your changes if the file is not read only.
