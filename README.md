@@ -8,15 +8,6 @@ google skd setup in the jar
 
 Usage:
 xxxx-app.xml
-add inside manifest
-```
-<application>
-	<meta-data android:name="com.google.android.gms.games.APP_ID" android:value="\ APPLICATION_ID" />
-	<activity android:name="com.freshplanet.googleplaygames.SignInActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-	</application>
-```
-change APPLICATION_ID to your value should be about 11 digit long number, make sure there is a space between \ and your number
-
 add the folowing after ```</android>``` tag
 ```
   <extensions>
