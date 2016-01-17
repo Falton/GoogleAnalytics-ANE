@@ -8,6 +8,10 @@ google skd setup in the jar
 
 Usage:
 xxxx-app.xml
+inside ```<![CDATA[<manifest ...```
+add
+```<uses-permission android:name="android.permission.INTERNET"/>```
+
 add the folowing after ```</android>``` tag
 ```
   <extensions>
