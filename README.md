@@ -17,7 +17,7 @@ add inside manifest
 ```
 change APPLICATION_ID to your value should be about 11 digit long number, make sure there is a space between \ and your number
 
-add the folowing after </android> tag
+add the folowing after ```</android>``` tag
 ```
   <extensions>
     <extensionID>com.svetov.services.ga</extensionID>
